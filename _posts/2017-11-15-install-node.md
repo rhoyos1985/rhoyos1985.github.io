@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Richard Hoyos"
-date: 2014-04-30
+date: 2017-11-15
 ---
 
 # Instalación de Node JS 8
