@@ -1,3 +1,2 @@
-theme: jekyll-theme-cayman
-title: Richard Hoyos
-description: Blog en español de nodeJS.
+name: Richard Hoyos
+markdown: kramdown
