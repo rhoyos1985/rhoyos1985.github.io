@@ -1,2 +1,8 @@
 name: Richard Hoyos
+collections:
+    githubpages:
+        label: "Github Pages"
+        relative_directory: /githubpages/
+        output: true
+        permalink: /githubpages/:name
 markdown: kramdown
