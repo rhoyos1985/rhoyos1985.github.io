@@ -14,9 +14,11 @@ layout: default
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
+            {% for item in site.data.navigation.links %}
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#githubpages">Github Pages</a>
+                <a class="nav-link js-scroll-trigger" href="{{ item.url }}">{{ item.name }}</a>
             </li>
+            {% endfor %}
         </ul>
     </div>
 </nav>
