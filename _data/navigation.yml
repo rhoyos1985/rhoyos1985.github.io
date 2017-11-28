@@ -2,3 +2,20 @@ links:
 
 - name: "Github Pages"
   url: /githubpages
+
+linkscv:
+
+- name: "Sobre mí"
+  url: "#about"
+
+- name: "Experiencia"
+  url: "#experience"
+
+- name: "Habilidades"
+  url: "#skills"
+
+- name: "Interes"
+  url: "#interests"
+
+- name: "Posts"
+  url: "/posts"

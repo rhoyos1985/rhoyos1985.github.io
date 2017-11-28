@@ -3,31 +3,29 @@ layout: layoutpost
 title: Posts
 ---
 
-<div class="container">
-    <div class="content">
-        <div class="row">
-            {% for article in site.githubpages %}
-            <div class="col-sm-12 col-md-5">
-                <div class="post">
-                    <div class="post-img-content">
-                        <img src="{{ article.image }}" class="img-responsive" />
+<div class="content">
+    <div class="row">
+        {% for article in site.githubpages %}
+        <div class="col-sm-12 col-md-5">
+            <div class="post">
+                <div class="post-img-content">
+                    <img src="{{ article.image }}" class="img-responsive" />
+                </div>
+                <div class="content">
+                    <div class="author">
+                        By <b>{{ article.autor }}</b> |
+                        <time datetime="{{ article.date | date_to_string }}">{{ article.date | date_to_string }}</time>
                     </div>
-                    <div class="content">
-                        <div class="author">
-                            By <b>{{ article.autor }}</b> |
-                            <time datetime="{{ article.date | date_to_string }}">{{ article.date | date_to_string }}</time>
-                        </div>
-                        <h5>{{ article.title }}</h5>
-                        <div>
-                            {{ article.description }}
-                        </div>
-                        <div class="contentFooter">
-                            <a href="{{ article.url }}" class="btn btn-primary btn-md" title="{{ article.title }}">Ver mas</a>
-                        </div>
+                    <h5>{{ article.title }}</h5>
+                    <div>
+                        {{ article.description }}
+                    </div>
+                    <div class="contentFooter">
+                        <a href="{{ article.url }}" class="btn btn-primary btn-md" title="{{ article.title }}">Ver mas</a>
                     </div>
                 </div>
             </div>
-            {% endfor %}
         </div>
+        {% endfor %}
     </div>
 </div>
