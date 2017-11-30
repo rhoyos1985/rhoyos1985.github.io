@@ -31,15 +31,17 @@ Con GitHub Pages los archivos cuyo contenido son HTML o Markdown se pueden ver c
 
     Dentro de la página coloque el siguiente código:
 
-       <!DOCTYPE html>
-        <html>
-            <head>
-                <title>hypnostec.github.io</title>
-            </head>
-            <body>
-               <p>Hola mundo!</p>
-            </body>
-        </html>
+    ````html
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>hypnostec.github.io</title>
+        </head>
+        <body>
+            <p>Hola mundo!</p>
+        </body>
+    </html>
+    ````
 
 - Hacemos Commit al archivo index.html. En la parte inferior de la página, agregamos una descripción de los cambios y presionamos el botón **Commit new file** para confirmar el archivo.
 

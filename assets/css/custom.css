@@ -1,6 +1,3 @@
-p{
-    margin-bottom: 3rem;
-}
 .content{
     margin: 15px 0px 0px 5px;
 }
@@ -14,12 +11,12 @@ p{
 {
     max-width: 100%
 }
-.post .content
+.post .post-body
 {
-    padding: 15px;
+    padding: 0px 0px 15px 15px;
 }
 
-.post .content .contentFooter{
+.post .post-body .contentFooter{
     margin-top: 10px;
 }
 
@@ -27,7 +24,7 @@ p{
 {
     font-size: 11px;
     color: #868e96;
-    padding: 25px 30px 20px;
+    padding: 0px 30px 20px;
 }
 .post .post-img-content
 {
@@ -57,4 +54,14 @@ p{
 
 .post_article{
     margin: 15px 15px
+}
+
+.post_article p{
+    margin: 2.5rem 0rem;
+    text-align: justify;
+}
+
+.post_article p img{
+    max-width: 100%;
+    margin-left: 5%
 }

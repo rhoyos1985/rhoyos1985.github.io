@@ -1,0 +1,119 @@
+richard:
+    name: Richard
+    lastname: Hoyos
+    mail: r.hoyos@richardhoyos.com.co
+    sumary: Me gusta el autoaprendizaje, responsable, honesto, con buenas relaciones personales; Habilidades de trabajo en equipo para resolver problemas del día a día, obtención de resultados y a la vanguardia con las nuevas tecnologías de desarrollo.
+    socialmedias:
+
+    -   url: https://twitter.com/richardhoyos
+        icon: fa-twitter
+
+    -   url: https://www.linkedin.com/in/richard-adolfo-hoyos-baquero
+        icon: fa-linkedin
+        
+    -   url: https://github.com/rhoyos1985
+        icon: fa-github
+    
+    experiences:
+
+    -   company: Softcaribbean S.A
+        position: Analista Desarrollador
+        years: Julio 2015 - Actual
+        descriptions:
+
+        -   info: Desarrollador full-stack en java (JavaSE, Java2E, JSP, JPA), frameworks (Spring MVC), HTML5, CSS3, JavaScript.  Herramientas usadas para mejorar la calidad de los procesos en la banca digital.
+    
+    -   company: 
+        position: Desarrollador Web
+        years: Enero 2014 - Julio 2015
+        descriptions:
+
+        -   info: "Desarrollo de website usando Python y Django Framework, Bootstrap como maquetación CSS3, HTML5, Jquery. Debido a que la empresa de este cliente cerro la el sitio fue cerrado igualmente (nombre: www.carcarebyabro.com)"
+
+        -   info: "Desarrollador de aplicación historias clínicas odontológicas para la facultad de Odontología usando Java, JavaServerFace, framwork Primefaces, Base de datos MySql."
+    
+    -   company: Zeus Tecnología S.A
+        position: Desarrollador Junior
+        years: Mayo 2011 - Diciembre 2013
+        descriptions:
+
+        -   info: Modificaciones al Sistema Zeus Hoteles y Base de datos, usando SQL Server y Foxpro.
+
+        -   info: Desarrollo del módulo Web Check-in usando ASP .Net MVC 3 y Procedimientos almacenados en SQL Server 2012.
+
+        -   info: Modificaciones al sistema Zeus Teléfono y base de datos database, usando SQL Server and C#.
+    
+    skills:
+        description: Lenguajes de Programación &amp; Herramientas
+        tools:
+
+        -   icon: devicons-html5
+            title: HTML5
+        
+        -   icon: devicons-css3
+            title: CSS3
+        
+        -   icon: devicons-javascript
+            title: Javascript
+        
+        -   icon: devicons-jquery
+            title: Jquery
+        
+        -   icon: devicons-sass
+            title: SASS
+        
+        -   icon: devicons-less
+            title: LESS
+        
+        -   icon: devicons-bootstrap
+            title: Bootstrap
+        
+        -   icon: devicons-gulp
+            title: Gulp
+        
+        -   icon: devicons-npm
+            title: NPM
+        
+        -   icon: devicons-github_full
+            title: Github
+        
+        -   icon:  devicons-bitbucket
+            title: Bitbucket
+        
+        -   icon: devicons-java
+            title: Java
+
+        -   icon:  devicons-python
+            title: Python django
+        
+        -   icon:  devicons-django
+            title: Django
+
+        -   icon:  devicons-nodejs
+            title: Node JS 
+
+        -   icon:  devicons-meteor
+            title: Meteor JS
+        
+        -   icon:  devicons-mongodb
+            title: MongoDB
+
+        -   icon:  devicons-scrum
+            title: Scrum
+         
+        
+        works:
+
+        -   info: Mobile-First, Responsive Design.
+
+        -   info: Pruebas Unitarias &amp; Debugging.
+
+        -   info: Trabajo en equipo.
+
+        -   info: Metodologías agiles &amp; Scrum;
+    
+    interests:
+
+    -   info: Además de ser un desarrollador web y de ser un apasionado por aprender nuevas herramientas de desarrollo, disfruto de realizar ejercicios al aire libre o en el gimnasio, compartir con mi familia ratos de recreación y diversión.
+
+    -   info: Actualmente me he interesado en aprender enseñando, para lo cual cree este espacio donde estaré escribiendo temas de tecnologías y herramientas que uso en el desarrollo web.

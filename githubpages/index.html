@@ -6,12 +6,12 @@ title: Posts
 <div class="content">
     <div class="row">
         {% for article in site.githubpages %}
-        <div class="col-sm-12 col-md-5">
+        <div class="col-sm-12 col-md-4">
             <div class="post">
                 <div class="post-img-content">
                     <img src="{{ article.image }}" class="img-responsive" />
                 </div>
-                <div class="content">
+                <div class="post-body">
                     <div class="author">
                         By <b>{{ article.autor }}</b> |
                         <time datetime="{{ article.date | date_to_string }}">{{ article.date | date_to_string }}</time>

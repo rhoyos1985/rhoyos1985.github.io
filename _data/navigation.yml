@@ -1,21 +1,21 @@
 links:
 
-- name: "Github Pages"
-  url: /githubpages
+-   name: "Github Pages"
+    url: /githubpages
 
 linkscv:
 
-- name: "Sobre mí"
-  url: "#about"
+-   name: "Sobre mí"
+    url: "#about"
 
-- name: "Experiencia"
-  url: "#experience"
+-   name: "Experiencia"
+    url: "#experience"
 
-- name: "Habilidades"
-  url: "#skills"
+-   name: "Habilidades"
+    url: "#skills"
 
-- name: "Interes"
-  url: "#interests"
+-   name: "Interes"
+    url: "#interests"
 
-- name: "Posts"
-  url: "/posts"
+-   name: "Posts"
+    url: "/posts"
