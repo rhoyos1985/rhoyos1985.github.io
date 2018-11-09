@@ -4,5 +4,10 @@ collections:
         label: "Github Pages"
         relative_directory: /githubpages/
         output: true
-        permalink: /githubpages/:name
+        permalink: /:collection/:name
+    ruby:
+        label: "Ruby"
+        relative_directory: /ruby/
+        output: true
+        permalink: /:collection/:name
 markdown: kramdown

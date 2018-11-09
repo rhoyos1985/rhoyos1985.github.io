@@ -3,6 +3,7 @@ autor: "Richard Hoyos"
 layout: post
 title: "Creando un Sitio Personal en GitHub - GitHub-Pages"
 date: 2017-11-19
+categories: [post]
 description:  "Una guía paso a paso de como crear una pagina personal en github."
 image: /assets/images/githubpages/gpindex.png
 ---

@@ -5,8 +5,9 @@ title: Posts
 
 <div class="content">
         <div class="row">
-            {% for post in site.githubpages %}
-            <div class="col-sm-12 col-md-4">
+            {% for collection in site.collections %}
+                {% for post in collection.docs %}
+            <div class="col-sm-12 col-md-4 mrg_bottom">
                 <div class="post">
                     <div class="post-img-content">
                         <img src="{{ post.image }}" class="img-responsive" />
@@ -26,6 +27,7 @@ title: Posts
                     </div>
                 </div>
             </div>
+                {% endfor %}
             {% endfor %}
         </div>
     </div>

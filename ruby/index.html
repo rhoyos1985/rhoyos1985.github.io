@@ -1,0 +1,31 @@
+---
+layout: layoutpost
+title: Ruby Posts
+---
+
+<div class="content">
+    <div class="row">
+        {% for article in site.ruby %}
+        <div class="col-sm-12 col-md-4">
+            <div class="post">
+                <div class="post-img-content">
+                    <img src="{{ article.image }}" class="img-responsive" />
+                </div>
+                <div class="post-body">
+                    <div class="author">
+                        By <b>{{ article.autor }}</b> |
+                        <time datetime="{{ article.date | date_to_string }}">{{ article.date | date_to_string }}</time>
+                    </div>
+                    <h5>{{ article.title }}</h5>
+                    <div>
+                        {{ article.description }}
+                    </div>
+                    <div class="contentFooter">
+                        <a href="{{ article.url }}" class="btn btn-primary btn-md" title="{{ article.title }}">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

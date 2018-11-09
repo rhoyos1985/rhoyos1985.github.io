@@ -3,6 +3,9 @@ links:
 -   name: "Github Pages"
     url: /githubpages
 
+-   name: "Ruby"
+    url: /ruby
+
 linkscv:
 
 -   name: "Sobre mí"
